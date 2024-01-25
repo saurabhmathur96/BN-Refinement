@@ -36,5 +36,3 @@ for name in BN_NAMES:
 
 print (pd.DataFrame(rows, columns=["Data set", "SHD (BIC)", "SHD (S-BIC)", "LL (BIC)", "LL (S-BIC)"]).groupby(by="Data set").mean())
 
-# M2.fit(train, state_names=M.states, estimator=BayesianEstimator,  prior_type="dirichlet", pseudo_counts=1)
-# print (f"LL = {log_likelihood_score(M2, test):.2f}")

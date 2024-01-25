@@ -1,0 +1,13 @@
+X,Y
+Age,Parity
+Age,HiBP
+BMI,HiBP
+BMI,PReEc
+BMI,PTB
+HiBP,PReEc
+HiBP,PTB
+Hist,NewHTN
+Parity,PReEc
+Parity,PTB
+PReEc,PTB
+NewHTN,PTB
