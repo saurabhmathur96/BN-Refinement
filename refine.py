@@ -4,7 +4,7 @@ import pandas as pd
 
 from structure_learning import refine_bn, StructuredBicScore
 
-from pgmpy.readwrite.BIF import BIFWriter
+from pgmpy.readwrite import BIFWriter
 from pgmpy.models import BayesianNetwork
 from pgmpy.estimators import BayesianEstimator
 
