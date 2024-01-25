@@ -1,8 +1,8 @@
 # BN-Refinement
 
 ## Requirements 
-pgmpy==0.1.24
-sklearn==1.1.3
+- pgmpy==0.1.24
+- scikit-learn==1.1.3
 
 ```
           SHD (BIC)  SHD (S-BIC)      LL (BIC)    LL (S-BIC)
