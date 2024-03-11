@@ -8,7 +8,7 @@ from pgmpy.readwrite import BIFWriter
 from pgmpy.models import BayesianNetwork
 from pgmpy.estimators import BayesianEstimator
 
-name = "numom2b"
+name = "garbh-ini"
 data = pd.read_csv(path.join("data", f"{name}.csv"))
 
 edges = []
