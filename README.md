@@ -1,15 +1,13 @@
 # BN-Refinement
 
+This repository contains code and supplementary material for the paper "Modeling multiple adverse pregnancy outcomes:\\ Learning from diverse data sources" AIME (2024).
+
+- `Eliciting initial BN structure from LLM.pdf` contains the prompt and the response from Google Gemini that was used to construct the initial BN.
+- `black_list.csv` contains the list of temporally impossible edges. These edges are excluded from the local search used to refine the initial BN.
+- `structure_learning.py` is a module that implements the BN refinement procedure.
+- `refine.py` reads an initial BN structure and a data set from disk and calls the refinement procedure to obtain a refined BN.
+
 ## Requirements 
 - pgmpy==0.1.24
 - scikit-learn==1.1.3
-
-```
-          SHD (BIC)  SHD (S-BIC)      LL (BIC)    LL (S-BIC)
-Data set
-alarm          12.2         12.2 -10843.799112 -10837.213485
-asia            3.0          3.0  -2228.289767  -2228.289767
-child           6.6          5.6 -12288.578128 -12262.899802
-sachs           3.0          2.8  -7348.953653  -7330.805347
-```
 
